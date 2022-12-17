@@ -8,7 +8,7 @@ import { trpc } from '@/utils/trpc'
 import type { FC } from 'react'
 
 const Home: NextPage = () => {
-  const hello = trpc.example.hello.useQuery({ text: 'from tRPC' })
+  const hello = trpc.example.hello.useQuery({ text: 'tRPCのテスト' })
 
   return (
     <>
